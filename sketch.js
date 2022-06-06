@@ -40,7 +40,7 @@ function draw() {
   fill(255)
   text('Score:   ' + score, windowWidth / 2, 125);
 
-  button = createSprite(windowWidth / 2, windowHeight / 2, windowWidth / 2, windowWidth / 2);
+  button = createSprite(windowWidth / 2, windowHeight / 2, windowWidth / 2, windowWidth / 2-200);
   button.addImage(buttonpic)
   touchStarted()
   drawSprites()
