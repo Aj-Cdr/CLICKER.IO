@@ -46,7 +46,7 @@ textSize(20);
  drawSprites()
 
  textSize(35);
- textFont('Cursive')
+ textFont('monospace')
  fill(255)
  text('FREE CLICKER GAME', windowWidth/2-500, windowHeight/2+150);
  textSize(30);
