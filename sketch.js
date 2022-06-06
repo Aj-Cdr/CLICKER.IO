@@ -21,22 +21,22 @@ function draw() {
  background(0);
 
  textSize(35);
- textFont('Cursive')
+ textFont('sans-serif')
  fill(255)
  text('CLICKER.IO', windowWidth/2, 50); 
  
  textSize(30);
- textFont('Cursive')
+ textFont('sans-serif')
  fill(255)
  text('Click The Button', windowWidth/2, 75); 
  
  textSize(25);
- textFont('Cursive')
+ textFont('sans-serif')
  fill(255)
  text('Developed By Ajay SP', windowWidth/2, 100); 
  
 textSize(20);
- textFont('Cursive')
+ textFont('sans-serif')
  fill(255)
  text('Score:   ' + score, windowWidth/2, 125); 
 
@@ -46,7 +46,7 @@ textSize(20);
  drawSprites()
 
  textSize(35);
- textFont('monospace')
+ textFont('sans-serif')
  fill(255)
  text('FREE CLICKER GAME', windowWidth/2-500, windowHeight/2+150);
  textSize(30);
